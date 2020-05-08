@@ -1,0 +1,75 @@
+STORES:
+  - Name: "STORE_0"
+    Width: 150
+    Length: 100
+    DEPARTMENTS:
+      - Name: "BAKERY"
+        TopLeft: [0, 0]
+        BottomRight: [50, 50]
+        AISLES:
+          - Number: 0
+            Tags:
+              - "TAG_0"
+              - "TAG_1"
+            ITEMS:
+              - Name: "ITEM_0"
+              - Name: "ITEM_1"
+              - Name: "ITEM_2"
+              - Name: "ITEM_3"
+              - Name: "ITEM_4"
+      - Name: "MEAT_AND_POULTRY"
+        TopLeft: [0, 0]
+        BottomRight: [50, 50]
+        AISLES:
+          - Number: 1
+            Tags:
+              - "TAG_2"
+              - "TAG_3"
+            ITEMS:
+              - Name: "ITEM_0"
+              - Name: "ITEM_1"
+              - Name: "ITEM_2"
+              - Name: "ITEM_3"
+              - Name: "ITEM_4"
+      - Name: "PRODUCE"
+        TopLeft: [0, 0]
+        BottomRight: [50, 50]
+        AISLES:
+          - Number: 2
+            Tags:
+              - "TAG_4"
+              - "TAG_5"
+            ITEMS:
+              - Name: "ITEM_0"
+              - Name: "ITEM_1"
+              - Name: "ITEM_2"
+              - Name: "ITEM_3"
+              - Name: "ITEM_4"
+      - Name: "PREPARED_FOODS"
+        TopLeft: [0, 0]
+        BottomRight: [50, 50]
+        AISLES:
+          - Number: 3
+            Tags:
+              - "TAG_6"
+              - "TAG_7"
+            ITEMS:
+              - Name: "ITEM_0"
+              - Name: "ITEM_1"
+              - Name: "ITEM_2"
+              - Name: "ITEM_3"
+              - Name: "ITEM_4"
+      - Name: "GROCERY"
+        TopLeft: [0, 0]
+        BottomRight: [50, 50]
+        AISLES:
+          - Number: 4
+            Tags:
+              - "TAG_8"
+              - "TAG_9"
+            ITEMS:
+              - Name: "ITEM_0"
+              - Name: "ITEM_1"
+              - Name: "ITEM_8"
+              - Name: "ITEM_3"
+              - Name: "ITEM_4"

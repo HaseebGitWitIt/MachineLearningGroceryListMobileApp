@@ -1,0 +1,54 @@
+Language: React Native
+
+Core Features:
+  Create grocery list that can be shared by users
+  GUI for mapping departments in store
+  Sort list based off of layout of store
+  Crowd source layout
+  
+Stretch Features:
+  Pricing of items
+  Scan recipes to add to list
+  Integration with external/third-party apps
+  Taking pictures of items/aisles to classify deparments and items
+  
+WoW
+  Pull requests (2 verifications)
+  Solid commit messages
+  
+Division of responsibilities:
+  App
+    Haseeb
+  Cloud
+    Jobin
+  Machine Learning
+    Bram
+    
+Two types of users:
+  Super-users/admins (Allowed to add/classify items)
+  Users
+  
+Phase 1 (June 10th)
+  App that makes list + stores locally
+Phase 2 
+  User + Pass to access list (Still local) (Read/Write privileges)
+Phase 3 (June 10th)
+  Integrating cloud
+Phase 4 (June 10th)
+  Adding machine learning
+  
+  
+Some of the fundamental requirements that were brought up during our discussions include:
+  - Create user accounts
+  - Create grocery list that can be shared between users --> List should rearrange based on layout of store
+  - Use map API to determine grocery store user is going to
+  - Machine learning algorithm to determine/train where specific food items may be from specific store
+  - Allow ‘higher privilege’ users to add info to help train machine learning and improve list accuracy --> Drag and drop like GUI to show where item was found, allow them to add items with tags to improve machine learning if the item is not already in our database
+ 
+
+Some extra features that we came up with that could be added include:
+  - Scan recipe to create a list
+  - API to help integrate with external/third-party apps
+  - Average price of item --> Estimate total price of list
+  - Add items to database by taking pictures of the item
+  - Scan items barcodes to add to list and database

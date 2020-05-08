@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Grocery List Application v3",
+    "slug": "GroceryStoreApplicationV3",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222B45"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Carleton.GroceryList"
+    },
+    "description": "",
+    "android": {
+      "package": "com.Carleton.GroceryList"
+    }
+  }
+}
